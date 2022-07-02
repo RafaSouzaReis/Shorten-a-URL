@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box-main{
+    margin-top: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 149, 235);
+}
+
+.box-main h1{
+    color: rgb(255, 145, 0);
+    text-align: center;
+    margin-bottom: 20px;
+}
+.box-main .box-form{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    height: 50px;
+    background-color: rgb(255, 145, 0);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin: 30px 0;
+    
+}
+
+.box-main .box-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1.1rem;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.box-main .box-form label{
+    margin: 0 10px;
+    color: #FFFF;
+}
+
+.box-main .box-form input{
+    padding-left: 5px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    border-radius: 5px;
+    width: 15vw;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.box-main .box-form button{
+    background-color: rgb(255, 182, 122);
+    border-color: transparent;
+    border-radius: 5px;
+    color: #FFFF;
+    width: 70px;
+    height: 25px;
+}
+
+ thead tr{
+    background-color: rgb(255, 145, 0);
+    color: #FFFF;
+    text-align: left;
+    font-weight: bold;
+}
+
+.box-main .box-table tbody tr{
+    border-bottom: 1px solid #dddd;
+}
+
+.box-main .box-table th,
+.box-main .box-table td{
+    padding: 12px 15px;
+}
+
+.box-main .box-form button:hover{
+    background-color: rgb(248, 172, 73);
+    cursor: pointer;
+}
+
+.box-main .box-table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+
+.box-main .box-table tbody tr:last-of-type{
+    border-bottom: 2px solid rgb(255, 145, 0);
+}

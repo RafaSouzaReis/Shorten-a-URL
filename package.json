@@ -1,0 +1,27 @@
+{
+  "name": "shortenurl",
+  "version": "1.0.0",
+  "description": "ShortenURL",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon serve.js ejs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafaSouzaReis/Shorten-a-URL.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RafaSouzaReis/Shorten-a-URL/issues"
+  },
+  "homepage": "https://github.com/RafaSouzaReis/Shorten-a-URL#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
